@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4DD1F3E9DA055BDE506D2A /* Pods_Grumply.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74345C0885AA0796AFD434A /* Pods_Grumply.framework */; };
+		E40F8BD51FBE3FCA00B36AA6 /* GrumplySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F8BD41FBE3FCA00B36AA6 /* GrumplySettings.swift */; };
+		E40F8BD71FBE3FF100B36AA6 /* GrumplyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F8BD61FBE3FF100B36AA6 /* GrumplyEvent.swift */; };
+		E40F8BD91FBE60F800B36AA6 /* GrumplinessHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F8BD81FBE60F800B36AA6 /* GrumplinessHistoryTableViewCell.swift */; };
+		E40F8BDB1FBE63F500B36AA6 /* GrumplinessHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F8BDA1FBE63F500B36AA6 /* GrumplinessHistoryTableViewController.swift */; };
+		E40F8BDD1FBE739800B36AA6 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F8BDC1FBE739800B36AA6 /* RoundedButton.swift */; };
+		E40F8BDF1FBE748700B36AA6 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F8BDE1FBE748700B36AA6 /* RoundedLabel.swift */; };
+		E442344F1FBCFE68000C66E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442344E1FBCFE68000C66E3 /* AppDelegate.swift */; };
+		E44234511FBCFE68000C66E3 /* GrumplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44234501FBCFE68000C66E3 /* GrumplyViewController.swift */; };
+		E44234541FBCFE68000C66E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44234521FBCFE68000C66E3 /* Main.storyboard */; };
+		E44234561FBCFE68000C66E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44234551FBCFE68000C66E3 /* Assets.xcassets */; };
+		E44234591FBCFE68000C66E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44234571FBCFE68000C66E3 /* LaunchScreen.storyboard */; };
+		E4835CED1FBD1B3B00467AD9 /* Grumply.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4835CEC1FBD1B3B00467AD9 /* Grumply.swift */; };
+		E4E738561FBF3CCD004011ED /* AirPressue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E738551FBF3CCD004011ED /* AirPressue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69822BE5D1DF247CB45D1D65 /* Pods-Grumply.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grumply.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grumply/Pods-Grumply.release.xcconfig"; sourceTree = "<group>"; };
+		B74345C0885AA0796AFD434A /* Pods_Grumply.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grumply.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40F8BD41FBE3FCA00B36AA6 /* GrumplySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrumplySettings.swift; sourceTree = "<group>"; };
+		E40F8BD61FBE3FF100B36AA6 /* GrumplyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrumplyEvent.swift; sourceTree = "<group>"; };
+		E40F8BD81FBE60F800B36AA6 /* GrumplinessHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrumplinessHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		E40F8BDA1FBE63F500B36AA6 /* GrumplinessHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrumplinessHistoryTableViewController.swift; sourceTree = "<group>"; };
+		E40F8BDC1FBE739800B36AA6 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		E40F8BDE1FBE748700B36AA6 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
+		E442344B1FBCFE68000C66E3 /* Grumply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grumply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E442344E1FBCFE68000C66E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E44234501FBCFE68000C66E3 /* GrumplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrumplyViewController.swift; sourceTree = "<group>"; };
+		E44234531FBCFE68000C66E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E44234551FBCFE68000C66E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E44234581FBCFE68000C66E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E442345A1FBCFE68000C66E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4835CE41FBD100900467AD9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E4835CE61FBD101500467AD9 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		E4835CE81FBD103000467AD9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E4835CE91FBD103900467AD9 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		E4835CEA1FBD104200467AD9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4835CEC1FBD1B3B00467AD9 /* Grumply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grumply.swift; sourceTree = "<group>"; };
+		E4E738551FBF3CCD004011ED /* AirPressue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPressue.swift; sourceTree = "<group>"; };
+		EA2EB0469AC7F531DFFAAF7A /* Pods-Grumply.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grumply.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grumply/Pods-Grumply.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44234481FBCFE68000C66E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4DD1F3E9DA055BDE506D2A /* Pods_Grumply.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A00AF7E1F04597C0EE434E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EB0469AC7F531DFFAAF7A /* Pods-Grumply.debug.xcconfig */,
+				69822BE5D1DF247CB45D1D65 /* Pods-Grumply.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA1E8518ED4B758610031B41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B74345C0885AA0796AFD434A /* Pods_Grumply.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44234421FBCFE68000C66E3 = {
+			isa = PBXGroup;
+			children = (
+				E4835CE81FBD103000467AD9 /* .gitignore */,
+				E4835CE41FBD100900467AD9 /* Podfile */,
+				E4835CE61FBD101500467AD9 /* Podfile.lock */,
+				E4835CE91FBD103900467AD9 /* LICENSE.md */,
+				E4835CEA1FBD104200467AD9 /* README.md */,
+				E4835CEB1FBD105400467AD9 /* Source */,
+				E442344D1FBCFE68000C66E3 /* Grumply */,
+				E442344C1FBCFE68000C66E3 /* Products */,
+				83A00AF7E1F04597C0EE434E /* Pods */,
+				CA1E8518ED4B758610031B41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E442344C1FBCFE68000C66E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E442344B1FBCFE68000C66E3 /* Grumply.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E442344D1FBCFE68000C66E3 /* Grumply */ = {
+			isa = PBXGroup;
+			children = (
+				E442345A1FBCFE68000C66E3 /* Info.plist */,
+			);
+			path = Grumply;
+			sourceTree = "<group>";
+		};
+		E4835CEB1FBD105400467AD9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E442344E1FBCFE68000C66E3 /* AppDelegate.swift */,
+				E44234501FBCFE68000C66E3 /* GrumplyViewController.swift */,
+				E40F8BDA1FBE63F500B36AA6 /* GrumplinessHistoryTableViewController.swift */,
+				E40F8BD81FBE60F800B36AA6 /* GrumplinessHistoryTableViewCell.swift */,
+				E44234571FBCFE68000C66E3 /* LaunchScreen.storyboard */,
+				E44234521FBCFE68000C66E3 /* Main.storyboard */,
+				E44234551FBCFE68000C66E3 /* Assets.xcassets */,
+				E4E738581FBF41D6004011ED /* Logic */,
+				E4E738591FBF420B004011ED /* Widgets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E4E738581FBF41D6004011ED /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				E4E738551FBF3CCD004011ED /* AirPressue.swift */,
+				E4835CEC1FBD1B3B00467AD9 /* Grumply.swift */,
+				E40F8BD41FBE3FCA00B36AA6 /* GrumplySettings.swift */,
+				E40F8BD61FBE3FF100B36AA6 /* GrumplyEvent.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		E4E738591FBF420B004011ED /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				E40F8BDC1FBE739800B36AA6 /* RoundedButton.swift */,
+				E40F8BDE1FBE748700B36AA6 /* RoundedLabel.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E442344A1FBCFE68000C66E3 /* Grumply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44234731FBCFE69000C66E3 /* Build configuration list for PBXNativeTarget "Grumply" */;
+			buildPhases = (
+				B67FF9B22499B3223DD68298 /* [CP] Check Pods Manifest.lock */,
+				E44234471FBCFE68000C66E3 /* Sources */,
+				E44234481FBCFE68000C66E3 /* Frameworks */,
+				E44234491FBCFE68000C66E3 /* Resources */,
+				E3B1F257CDE1D58F08BE6828 /* [CP] Embed Pods Frameworks */,
+				75F82904CCC58775A218E27D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grumply;
+			productName = Grumply;
+			productReference = E442344B1FBCFE68000C66E3 /* Grumply.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44234431FBCFE68000C66E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Nexosis;
+				TargetAttributes = {
+					E442344A1FBCFE68000C66E3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E44234461FBCFE68000C66E3 /* Build configuration list for PBXProject "Grumply" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E44234421FBCFE68000C66E3;
+			productRefGroup = E442344C1FBCFE68000C66E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E442344A1FBCFE68000C66E3 /* Grumply */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44234491FBCFE68000C66E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44234591FBCFE68000C66E3 /* LaunchScreen.storyboard in Resources */,
+				E44234561FBCFE68000C66E3 /* Assets.xcassets in Resources */,
+				E44234541FBCFE68000C66E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75F82904CCC58775A218E27D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grumply/Pods-Grumply-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B67FF9B22499B3223DD68298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grumply-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B1F257CDE1D58F08BE6828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Grumply/Pods-Grumply-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NexosisApiClient/NexosisApiClient.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NexosisApiClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grumply/Pods-Grumply-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44234471FBCFE68000C66E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44234511FBCFE68000C66E3 /* GrumplyViewController.swift in Sources */,
+				E40F8BD51FBE3FCA00B36AA6 /* GrumplySettings.swift in Sources */,
+				E4E738561FBF3CCD004011ED /* AirPressue.swift in Sources */,
+				E40F8BDF1FBE748700B36AA6 /* RoundedLabel.swift in Sources */,
+				E40F8BD71FBE3FF100B36AA6 /* GrumplyEvent.swift in Sources */,
+				E40F8BDD1FBE739800B36AA6 /* RoundedButton.swift in Sources */,
+				E40F8BD91FBE60F800B36AA6 /* GrumplinessHistoryTableViewCell.swift in Sources */,
+				E40F8BDB1FBE63F500B36AA6 /* GrumplinessHistoryTableViewController.swift in Sources */,
+				E4835CED1FBD1B3B00467AD9 /* Grumply.swift in Sources */,
+				E442344F1FBCFE68000C66E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E44234521FBCFE68000C66E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44234531FBCFE68000C66E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E44234571FBCFE68000C66E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44234581FBCFE68000C66E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E44234711FBCFE69000C66E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E44234721FBCFE69000C66E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E44234741FBCFE69000C66E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2EB0469AC7F531DFFAAF7A /* Pods-Grumply.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4MGET6X2A;
+				INFOPLIST_FILE = Grumply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexosis.Grumply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E44234751FBCFE69000C66E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69822BE5D1DF247CB45D1D65 /* Pods-Grumply.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4MGET6X2A;
+				INFOPLIST_FILE = Grumply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexosis.Grumply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44234461FBCFE68000C66E3 /* Build configuration list for PBXProject "Grumply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44234711FBCFE69000C66E3 /* Debug */,
+				E44234721FBCFE69000C66E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44234731FBCFE69000C66E3 /* Build configuration list for PBXNativeTarget "Grumply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44234741FBCFE69000C66E3 /* Debug */,
+				E44234751FBCFE69000C66E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E44234431FBCFE68000C66E3 /* Project object */;
+}
