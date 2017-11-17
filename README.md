@@ -30,3 +30,8 @@ Launch Xcode:
 ### Extra Step
 If you are using Cocoapods 1.3, there is a bug where the swift version is not set to match the pods that are installed. For this repo, Alamofire
 will not compile. Set it Swift version to 3.2 and you'll be golden!
+
+## Notes
+
+There is currently a bug in the NexosisApiClient where calls to delete from all records instead of just records for a time
+period. This is pre-alpha code. Use with caution.
