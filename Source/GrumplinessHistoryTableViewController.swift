@@ -16,15 +16,7 @@ class GrumplinessHistoryTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        grumply.fetchPastEvents()
-            .then { events -> Void in
-                self.events = events
-                self.tableView.reloadData()
-            }
-            .catch { error in
-                print("Error: \(error)")
-            }
+        loadEvents().catch { print("Error during initial load: \($0)") }
     }
 
     override func didReceiveMemoryWarning() {
@@ -52,5 +44,30 @@ class GrumplinessHistoryTableViewController: UITableViewController {
         let event = events[indexPath.row]
         cell.update(grumpliness: event.grumpliness, date: event.date)
         return cell
+    }
+
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            removeEvent(indexPath: indexPath)
+                .then{ self.loadEvents() }
+                .catch { print("Error removing row: \($0)") }
+        }
+    }
+
+    private func loadEvents() -> Promise<Void> {
+        return grumply.fetchPastEvents()
+            .then { events -> Void in
+                self.events = events
+                self.tableView.reloadData()
+            }
+            .catch { error in
+                self.events = []
+                self.tableView.reloadData()
+                print("Error loading events: \(error)")
+            }
+    }
+
+    private func removeEvent(indexPath: IndexPath) -> Promise<Void> {
+        return grumply.removeEvent(date: events[indexPath.row].date)
     }
 }
