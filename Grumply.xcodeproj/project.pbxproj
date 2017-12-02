@@ -21,6 +21,7 @@
 		E44234591FBCFE68000C66E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44234571FBCFE68000C66E3 /* LaunchScreen.storyboard */; };
 		E4835CED1FBD1B3B00467AD9 /* Grumply.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4835CEC1FBD1B3B00467AD9 /* Grumply.swift */; };
 		E4E738561FBF3CCD004011ED /* AirPressue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E738551FBF3CCD004011ED /* AirPressue.swift */; };
+		E4E7385F1FBF6E65004011ED /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4E7385A1FBF617F004011ED /* Settings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		E4835CEA1FBD104200467AD9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4835CEC1FBD1B3B00467AD9 /* Grumply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grumply.swift; sourceTree = "<group>"; };
 		E4E738551FBF3CCD004011ED /* AirPressue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPressue.swift; sourceTree = "<group>"; };
+		E4E7385A1FBF617F004011ED /* Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		E4E7385C1FBF6242004011ED /* Settings.plist.example */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Settings.plist.example; sourceTree = "<group>"; };
 		EA2EB0469AC7F531DFFAAF7A /* Pods-Grumply.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grumply.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grumply/Pods-Grumply.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				E442345A1FBCFE68000C66E3 /* Info.plist */,
+				E4E7385A1FBF617F004011ED /* Settings.plist */,
+				E4E7385C1FBF6242004011ED /* Settings.plist.example */,
 			);
 			path = Grumply;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E44234591FBCFE68000C66E3 /* LaunchScreen.storyboard in Resources */,
+				E4E7385F1FBF6E65004011ED /* Settings.plist in Resources */,
 				E44234561FBCFE68000C66E3 /* Assets.xcassets in Resources */,
 				E44234541FBCFE68000C66E3 /* Main.storyboard in Resources */,
 			);

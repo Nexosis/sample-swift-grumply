@@ -10,8 +10,8 @@ class Grumply {
     private let settings: GrumplySettings
 
     private init() {
-        client = NexosisClient(apiKey: "2b2126def86e4937a1434c895909b4d2")
         settings = GrumplySettings()
+        client = NexosisClient(apiKey: settings.apiKey)
     }
 
     func save(event: GrumplyEvent) -> Promise<Void> {
@@ -37,6 +37,7 @@ class Grumply {
 
     func removeEvent(date: Date) -> Promise<Void> {
         let dateString = ISO8601DateFormatter().string(from: date)
+        print(dateString)
         return client.datasets.delete(datasetName: settings.datasetName, startDate: dateString, endDate: dateString)
     }
 
@@ -49,7 +50,8 @@ class Grumply {
     }
 
     private func toDate(fromString: String) -> Date {
-        return ISO8601DateFormatter().date(from: fromString) ?? Date()
+        let sansMilliseconds = fromString.replacingOccurrences(of: "\\.\\d+", with: "", options: .regularExpression)
+        return ISO8601DateFormatter().date(from: sansMilliseconds) ?? Date()
     }
 
     private func toString(fromDate: Date) -> String {
