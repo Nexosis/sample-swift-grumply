@@ -1,11 +1,3 @@
-//
-//  AirPressue.swift
-//  Grumply
-//
-//  Created by Guy Royse on 11/17/17.
-//  Copyright © 2017 Nexosis. All rights reserved.
-//
-
 import CoreMotion
 
 class AirPressure {

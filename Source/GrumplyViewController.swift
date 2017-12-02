@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Grumply
-//
-//  Created by Guy Royse on 11/15/17.
-//  Copyright © 2017 Nexosis. All rights reserved.
-//
-
 import UIKit
 import NexosisApiClient
 
